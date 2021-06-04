@@ -108,7 +108,7 @@
 
         - containerd.io
     - name: deploy wartest application
-      command: sudo docker run -it -d -p 8000:80 aishwaryadevops/webserver-image:v1
+      command: sudo docker run -it -d -p 8000:80 aishwaryadevops/webserver-image:v1.1
   handlers:
 
     - name: start nginx
