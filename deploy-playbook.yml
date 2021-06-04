@@ -9,7 +9,7 @@
   become: yes
   
   vars:
-  my_tag: "{{ tagname }}"
+  my_tag: "{{tagname}}"
 
   tasks:
 
